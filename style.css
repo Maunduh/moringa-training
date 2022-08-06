@@ -1,95 +1,21 @@
-body{
-    background-color: white;
-    font-family: sans-serif;
-    display: block;
-   
-    
-}
-h1{
-    text-align: center;
-    content: normal;
-    font-family: serif;
-    color: orangered;
-}
-.menubar{
-    background-color: red;
-    text-align: center;
-
-    
-}
-.menubar ul1{
-display: inline-flex;
-list-style: none;
-width: 100%;
-align-items: center;
-
-}
-
-.menubar ul1 li{
-   width: 100% ;
-  height: 100px;
-   padding: 50px;
-background-color: red;
-text-decoration: underline;
-text-decoration-color: blue;
-
-}
-img{
+*{
     box-sizing: border-box;
-  
-    align-items: center;
-    width: 100%;
 }
-h3{
-    text-align: center;
-    text-emphasis: none;
-    text-decoration: none;
-    font-family: sans-serif;
+body{
+    margin: auto;
 }
-p{
-    text-align: center;
-    font-family: sans-serif;
-    text-decoration: none;
-    
+.output{
+    border: 1px solid black;
+    width: 100vw;
+    height: 50vw;
+    position: relative;
+    overflow: hidden;
 }
-div2{
-    
-    list-style: none;
-    align-items: center;
+.output:after{
+content: "";
+position: absolute;
+width: 50%;
+height: 100%;
+border-radius: 50%;
+box-shadow: 0 0 0 1vw red, 0 0 0 2vw orange, 0 0 0 3vw yellow, 0 0 0 4vw green, 0 0 0 5vw blue ,0 0 0 6vw indigo ,0 0 0 7vw violet;
 }
-footer{ 
-    background-color: red;
-    text-align: center;
-    display: inline-flex;
-    width: 100%;
-    height: 150px;
-}
-h3{
-    font-family: sans-serif;
-    text-decoration: underline;
-    text-decoration-color: blue;
-    padding-left: 150px;
-}
-
-   
-
-div3{
-    list-style: none;
-    padding-left: 150p;
-}
-div3 ul1 li{
-padding-left: 150px;}
-
-    
-div4 ul{
-    list-style: none;
-    padding-left: 150px;
-}
-div5 li{
-    padding-left: 150px;
-}
-div6 li{
-    padding-left: 150px;
-}
-
-    
